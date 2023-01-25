@@ -9,7 +9,7 @@ function HeroSection() {
       <div className="hero-container">
         <video src="/videos/video-1.mp4" autoPlay loop muted />
         <h1>Rock & Rogue</h1>
-        <p>High Quality Professional Catering and Tour services</p>
+        <p className="blurb-p"> Professional Catering and Tour services</p>
         <div className="image-wrapper">
           <img src="../images/logo1.png" className="logo1"></img>
           <img src="../images/logo2.png" className="logo1"></img>

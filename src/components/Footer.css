@@ -16,7 +16,7 @@
   
     margin-bottom: 24px;
     padding: 24px;
-    color: #fff;
+    color: rgb(175, 202, 171);
   }
   
   .footer-subscription > p {
@@ -43,6 +43,7 @@
     font-size: 18px;
     margin-bottom: 16px;
     border: 1px solid #fff;
+
   }
   
   .footer-links {
@@ -50,6 +51,7 @@
     max-width: 1000px;
     display: flex;
     justify-content: center;
+
   }
   
   .footer-link-wrapper {
@@ -71,7 +73,7 @@
   }
   
   .footer-link-items > h2 {
-    color: #fff;
+    color: rgb(175, 202, 171);
   }
   
   .footer-link-items a {
@@ -95,7 +97,7 @@
   
   /* Social Icons */
   .social-icon-link {
-    color: #fff;
+    color: rgb(175, 202, 171);
     font-size: 24px;
   }
   
@@ -121,7 +123,7 @@
   }
   
   .social-logo {
-    color: #fff;
+    color: rgb(175, 202, 171);
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
@@ -133,7 +135,7 @@
   }
   
   .website-rights {
-    color: #fff;
+    color: rgb(175, 202, 171);
     margin-bottom: 16px;
   }
   
