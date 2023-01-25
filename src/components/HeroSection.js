@@ -23,7 +23,7 @@ function HeroSection() {
             buttonStyle="btn--outline"
             buttonSize="btn--large"
           >
-            Meet The Chef's
+            Meet The Chefs
           </Button>
           <Button
             className="btns"

@@ -10,35 +10,35 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-6.png'
+              src='images/img-7.jpg'
               text='A real human chef'
-              label='Buffet'
+              label='Frank'
               path='/services'
             />
             <CardItem
               src='images/img-7.jpg'
-              text='We can make fried eggs for days'
-              label='Weddings'
+              text='"Can make fried eggs for days"'
+              label='Peter'
               path='/services'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='images/img-7.jpg'
-              text='tours around the world'
-              label='concerts'
+              text='makes boss toast'
+              label='Jerry'
               path='/services'
             />
             <CardItem
-              src='./images/img-9.jpg'
-              text='easy meals made fresh delivered weeekly '
-              label='meal prep'
+              src='./images/img-7.jpg'
+              text=' on community sevice on weekends'
+              label='Ben'
               path='/products'
             />
             <CardItem
-              src='images/img-home.jpg'
-              text='we can host for up to 4,000,000 guests '
-              label='Adrenaline'
+              src='images/img-7.jpg'
+              text='strong wrists'
+              label='Meg'
               path='/sign-up'
             />
           </ul>
