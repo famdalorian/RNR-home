@@ -13,8 +13,8 @@ function HeroSection() {
           <p className="blurb-p"> Professional Catering and Tour services</p>
         </span>
         <div className="image-wrapper">
-          <img src="../images/logo1.png" className="logo1"></img>
-          <img src="../images/logo2.png" className="logo1"></img>
+          <img src="../images/logo1.png" className="logo1" alt =""></img>
+          <img src="../images/logo2.png" className="logo1" alt =""></img>
         </div>
 
         <div className="hero-btns">
