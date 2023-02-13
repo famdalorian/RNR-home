@@ -5,9 +5,9 @@ import CardItem from '../CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Meet The Chefs!</h1>
       <div className='cards__container'>
-        <div className='cards__wrapper'>
+        <div className='cards__wrapper'>      <h1>Meet The Chefs!</h1>
+
           <ul className='cards__items'>
             <CardItem
               src='images/img-7.jpg'

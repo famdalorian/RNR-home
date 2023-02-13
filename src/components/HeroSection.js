@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../App.css";
 import { Button } from "./Button";
 import "./Herosection.css";
@@ -13,12 +14,18 @@ function HeroSection() {
           <p className="blurb-p"> Professional Catering and Tour services</p>
         </span>
         <div className="image-wrapper">
-          <img src="../images/logo1.png" className="logo1" alt =""></img>
-          <img src="../images/logo2.png" className="logo1" alt =""></img>
+          <Link to="./Services">
+            {" "}
+            <img src="../images/logo2.png" className="logo1" alt=""></img>
+          </Link>
+          <Link to="./Rock">
+            <img src="../images/logo1.png" className="logo1" alt=""></img>
+          </Link>
         </div>
 
         <div className="hero-btns">
           <Button
+            to="/Rock"
             className="btns"
             buttonStyle="btn--outline"
             buttonSize="btn--large"

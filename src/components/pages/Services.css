@@ -1,0 +1,11 @@
+.cards{
+    background: url("../../../public/images/wood.jpg");
+}
+.Rock-cards{
+    background: url("../../../public/images/metal.jpg");
+    background-size: 50%;
+}
+.App{
+    background-color: #17151c;
+
+}

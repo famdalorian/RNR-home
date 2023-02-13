@@ -1,14 +1,13 @@
 import React from "react";
 import "../../App.css";
 import CardItem from "../CardItem";
-import Footer from "../Footer";
-
+import "../../components/pages/Services.css"
 function Services() {
   return (
     <div className="cards">
-      <h1>Check out our services!</h1>
       <div className="cards__container">
-        <div className="cards__wrapper">
+        <div className="cards__wrapper">      <h1>Check out our services!</h1>
+
           <ul className="cards__items">
             <CardItem
               src="images/img-9.jpg"
@@ -44,11 +43,11 @@ function Services() {
             />
           </ul>
         
-        </div> 
+
+        </div>  
       </div>
-   
     </div>
-      
+
   );
 }
 
