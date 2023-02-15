@@ -1,27 +1,15 @@
 import React from "react";
 import "./Footer.css";
-import { Button } from "./Button";
 import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <div className="footer-container">
       <section className="footer-subscription">
-        <p className="footer-subscription-heading">
-          Join the R'n'R newsletter to receive our best deals
-        </p>
-        <p className="footer-subscription-text">
-          You can unsubscribe at any time.
-        </p>
+       
         <div className="input-areas">
           <form>
-            <input
-              className="footer-input"
-              name="email"
-              type="email"
-              placeholder="Your Email"
-            />
-            <Button buttonStyle="btn--outline">Subscribe</Button>
+            
           </form>
         </div>
       </section>
@@ -29,7 +17,7 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/sign-up">Meet The Chefs</Link>
+            <Link to="/MeetChefs">Meet The Chefs</Link>
             <Link to="/">Testimonials</Link>
           </div>
           <div class="footer-link-items"></div>
@@ -37,8 +25,10 @@ function Footer() {
         <div className="footer-link-wrapper">
           
           <div class="footer-link-items">
-            <h2>Contact </h2>
-            <Link ><a href="+447377660645">Phone</a></Link>
+            <Link to="Contact">            <h2>Contact </h2>
+
+            </Link>
+          <a href="+447377660645">  <Link >Phone</Link></a>
             <Link to="/">Email</Link>
             <Link to="/"></Link>
           </div>

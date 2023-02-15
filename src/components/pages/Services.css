@@ -1,5 +1,6 @@
 .cards{
-    background: url("../../../public/images/wood.jpg");
+    background: url("../../../public/images/wood-2.jpg");
+    background-size: 190%;
 }
 .Rock-cards{
     background: url("../../../public/images/metal.jpg");
@@ -8,4 +9,7 @@
 .App{
     background-color: #17151c;
 
+}
+.blurb-p{
+    color: aliceblue;
 }

@@ -1,16 +1,15 @@
 import React from "react";
 import "../../App.css";
-
+import AboutUs from "./AboutUs";
 import HeroSection from "../HeroSection";
-import MeetChefs from "../pages/Meetchefs";
-import Services from "./Services";
+
 
 
 function Home() {
   return (
     <>
       <HeroSection />
-     
+      <AboutUs/>
     </>
   );
 }

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
@@ -52,11 +51,11 @@ function Navbar() {
               </li>{" "}
               <li className="nav-item">
                 <Link
-                  to="/Services"
+                  to="/Rock"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
-                  testimonials{" "}
+                  Tours{" "}
                 </Link>
               </li>
               <li className="nav-item">

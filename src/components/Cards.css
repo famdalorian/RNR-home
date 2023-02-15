@@ -5,6 +5,10 @@
 
 h1 {
   text-align: center;
+  color: white;
+  background: transparent;
+  border-radius: 10px;
+  text-shadow: #17151c 4.5px 4.5px ;
 }
 
 .cards__container {
@@ -14,7 +18,7 @@ h1 {
   max-width: 1120px;
   width: 90%;
   margin: 0 auto;
-  background-color: #17151c;
+  background-color: transparent;
 
   border-radius: 10px;
 }
