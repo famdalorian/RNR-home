@@ -39,7 +39,7 @@ function Footer() {
           <div class="footer-logo">
             <Link to="/" className="social-logo">
               R'n'R
-              <i class="fab fa-typo3" />
+              <i class="fa-solid fa-guitar"></i>
             </Link>
           </div>
           <small class="website-rights">xxisp.eth © 2023</small>
